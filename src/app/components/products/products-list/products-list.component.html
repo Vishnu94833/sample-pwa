@@ -1,3 +1,6 @@
-<ul>
-    <li *ngFor='let product of products' (click)="getSubject()">{{ product.name }}</li>
-</ul>
+
+<div class="prod-list__container">
+    <ul class="ul-element">
+        <li class="li-element" *ngFor='let product of products' (click)="getSubject()">{{ product.name }}</li>
+    </ul>
+</div>

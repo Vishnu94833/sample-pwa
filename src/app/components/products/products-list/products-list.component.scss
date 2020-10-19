@@ -1,0 +1,9 @@
+.prod-list {
+  &__container {
+    background-color: rgb(117, 92, 92);
+    .ul-element {
+      list-style: none;
+      .li-element {}
+    }
+  }
+}
